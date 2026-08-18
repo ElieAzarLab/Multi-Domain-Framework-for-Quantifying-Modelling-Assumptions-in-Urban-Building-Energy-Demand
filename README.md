@@ -61,7 +61,7 @@ All other inputs and simulation settings remain consistent unless explicitly sta
 3. Confirm that the common model inputs and parameters match the Common_Settings sheet.
 4. Run the Solar Radiation Analysis module using DAYSIM (Domain 1 urban context)
 5. Run the Energy Demand Forecasting module of Energy Demand Part 1: building occupancy
-6. 5. Run the Energy Demand Forecasting - Energy Demand Part 2: load modelling 
+6. Run the Energy Demand Forecasting - Energy Demand Part 2: load modelling 
 
 [Note]
 Allow each workflow step to finish before initiating the next required step.
