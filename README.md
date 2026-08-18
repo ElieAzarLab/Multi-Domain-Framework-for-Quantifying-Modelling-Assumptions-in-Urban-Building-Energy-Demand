@@ -36,7 +36,7 @@ The databases directory contains the CEA databases used for the EV Charging mode
 If included, the software directory contains the CEA 4.0.0-beta.4 installation package used to establish the original simulation environment.
 
 ## **Simulation**
-## **Before Running a Simulation**
+### **Before Running a Simulation**
 1. Install City Energy Analyst 4.0.0-beta.4.
 2. Download or clone the complete GitHub repository.
 3. Locate the simulation to be reproduced in the Scenario_Matrix sheet.
@@ -45,7 +45,7 @@ If included, the software directory contains the CEA 4.0.0-beta.4 installation p
 6. Apply the scenario-specific inputs identified in the Scenario_Matrix.
 7. Confirm that all remaining simulation parameters are consistent with the Common_Settings sheet.
 
-## **Domain-Specific Inputs**
+### **Domain-Specific Inputs**
 The following inputs vary when each domain is applied.
 
 | Modelling Domain | Parameter Changed | Required Action |
@@ -55,7 +55,7 @@ The following inputs vary when each domain is applied.
 | Domain 3 – EV Charging | CEA database | Select the database identified in the `Scenario_Matrix`. The required EV charging load profiles are already prepared within the corresponding database. |
 
 All other inputs and simulation settings remain consistent unless explicitly stated otherwise.
-## **Simulation Procedure Summary**
+### **Simulation Procedure Summary**
 1. Setup the corresponding CEA scenario (includes Domain 2 weather file).
 2. Choose the database (includes Domain 3 EV adoption)
 3. Confirm that the common model inputs and parameters match the Common_Settings sheet.
@@ -66,7 +66,7 @@ All other inputs and simulation settings remain consistent unless explicitly sta
 [Note]
 Allow each workflow step to finish before initiating the next required step.
 The generated outputs are automatically retained within the corresponding CEA simulation folder.
-## **Simulation Check**
+### **Simulation Check**
 Each simulation is assigned a unique Simulation ID in the Scenario_Matrix. The Simulation ID links the scenario configuration in the spreadsheet to its corresponding CEA simulation folder.
 
 For example:
